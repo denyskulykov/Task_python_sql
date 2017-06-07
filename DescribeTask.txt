@@ -1,0 +1,18 @@
+After data analysis there were several issues found:
+  Duplicate lines. 
+    Lines deleted.  
+  Lines with all empty cells besides Locode and Phrase. 
+    Lines deleted. 
+  Values of cells that are more than 1-sigma from the Standard Deviation (4 198 494 144 for AvgMsv as calculated by Excel).
+    Lines deleted.
+  While preparing the data the incorrect literal value of Msv cell was found.
+    Incorrect Msv value replaced by the corresponding AvgMsv value.
+  The search phrase "???" probably is incorrect.
+    As long as other values in the corresponding row seems to be ok, no changes were applied.
+
+To define regionality: 
+  a percent of requests of a phrase by regions was calculated and grouped in a dictionary;
+  then a minimum percent value of any one region was obtained;
+  then a minimum percent was recursively subtract from all the received percent ratios for all the regions.
+
+Please run task.py
