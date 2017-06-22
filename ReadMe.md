@@ -1,7 +1,3 @@
-Conductor Data Challenge: Search Volume
-skennerly@conductor.com
-
-
 INTRODUCTION
 
 Widgetcorp is a (fictional) company which uses Searchlight to learn how people express intent about topics and products relevant to their business. As part of their new Global Widget Initiative, their Digital Marketing team wants to study national and regional differences in what people search for and what specific words they use.
